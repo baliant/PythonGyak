@@ -1,0 +1,2 @@
+# PythonGyak
+Python tanulás, gyakorlás
