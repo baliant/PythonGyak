@@ -1,0 +1,109 @@
+ 2/1:
+# lista deklarálás szögletes zárójel
+x = [1, 2, 3, 4]
+ 2/2:
+# lista deklarálás szögletes zárójel
+x = [1, 2, 3, 4]
+x
+ 2/3:
+# lista deklarálás szögletes zárójellel
+# Bármilyen eleme lehet
+x = [1, 2, 3, 4, 'kutya']
+x
+ 2/4:
+# lista deklarálás szögletes zárójellel
+# Bármilyen eleme lehet, pl. másik lista is.
+x = [1, 2, 3, 4, 'kutya', [1, 2]]
+x
+ 2/5:
+#lista indexelése
+x[0]
+ 2/6:
+#lista indexelése
+x[4]
+ 2/7:
+#lista indexelése
+x[5]
+ 2/8:
+#lista indexelése
+x[6]
+ 2/9:
+#lista indexelése
+x[4]
+2/10:
+# linkelt lista
+x[5][1]
+2/11:
+# linkelt lista
+x[5][1]
+2/12: % Tuple
+2/13: # Tuple
+2/14: #Tuple
+ 3/1: x = (1,2,'macska', [1,2])
+ 3/2:
+x = (1,2,'macska', [1,2])
+x
+ 3/3:
+x = {'elso': 3, 'masodik': 'tizenöt', 'bármelyik': [1,2]}
+x
+ 3/4: x{elso}
+ 3/5: x{'elso'}
+ 3/6: x['elso']
+ 3/7: x['elso'] * 6
+ 3/8: x['elso'] * 6
+ 3/9: x['bármelyik'] * 6
+ 4/1: 
+ 4/2: xit
+   1: help(len)
+   2: len?
+   3: x?
+   4: 4 + 3
+   5: 5/6
+   6:
+# Egész osztás: 
+14//3
+   7:
+# és a maradék:
+14%3
+   8:
+x = 3
+print(x)
+   9: kor = 36.52211157555
+  10: mondat = 'Én {} éves vagyok.'.format(kor) #{} behelyettesítés
+  11: print(mondat)
+  12:
+mondat = 'Én {:.2f} éves vagyok.'.format(kor)
+print(mondat)
+  13:
+# lista deklarálás szögletes zárójellel
+# Bármilyen eleme lehet, pl. másik lista is.
+x = [1, 2, 3, 4, 'kutya', [1, 2]]
+x
+  14:
+#lista indexelése
+x[4]
+  15:
+# linkelt lista
+x[5][1]
+  16:
+x = (1,2,'macska', [1,2])
+x
+  17:
+x = {'elso': 3, 'masodik': 'tizenöt', 'bármelyik': [1,2]}
+x
+  18: x['bármelyik'] * 6
+  19: x?
+  20: x??
+  21: square??
+  22: len??
+  23: x.keys
+  24: x.__dir__
+  25: import <TAB>
+  26: * warning?
+  27: * warning?
+  28: * Warning?
+  29: str.*find*?
+  30: str.find?
+  31: %history
+  32: %history -g -f filename
+  33: %history -g -f filename
